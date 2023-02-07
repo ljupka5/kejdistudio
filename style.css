@@ -199,10 +199,12 @@ html {
   align-items: center;
   justify-content: center;
   padding: 2rem;
+  transition: all 0.5s;
 }
 
 .testimonial-card:hover {
   box-shadow: 0.3rem 0.3rem 1rem #fdc851;
+  transform: translateY(-2rem);
 }
 
 .testimonial-icon i {
