@@ -70,14 +70,14 @@
             <a href="#" class="portfolio-link">See More</a>
             <img src="images/Background.jpg" alt="" class="portfolio-img" />
           </div>
-          <h4 class="portfolio-name">Home design</h4>
+          <h4 class="portfolio-name">Home Design</h4>
         </div>
         <div class="portfolio-card">
           <div class="portfolio-gallery">
             <a href="#" class="portfolio-link">See More</a>
             <img src="images/restaurant.jpg" alt="" class="portfolio-img" />
           </div>
-          <h4 class="portfolio-name">Comercial design</h4>
+          <h4 class="portfolio-name">Comercial Design</h4>
         </div>
       </div>
     </section>
@@ -169,7 +169,12 @@
     <!-- Contact Section -->
     <section class="section-contact" id="contact">
       <h1 class="primary-header">Contact me</h1>
-      <form class="contact-form">
+      <form
+        class="contact-form"
+        name="contact"
+        data-netlify="true"
+        method="post"
+      >
         <input type="text" class="contact-input" placeholder="Name" required />
         <input
           type="email"
@@ -178,7 +183,9 @@
           required
         />
         <textarea class="contact-message" placeholder="Message"></textarea>
-        <button class="contact-form-btn">Submit</button>
+        <button class="contact-form-btn" type="submit" value="send">
+          Submit
+        </button>
       </form>
     </section>
     <footer class="footer">
@@ -187,7 +194,7 @@
         ><ion-icon name="logo-instagram"></ion-icon
       ></a>
       <p class="copyright">
-        Copyright &copy; LJ Web Design&Development Studio All Rights Reserved
+        Copyright &copy; DeCode Studio All Rights Reserved
       </p>
     </footer>
     <script src="script.js"></script>
